@@ -10,7 +10,7 @@ def adicionar_usuario():
     try:
         data = request.json
         nome = data.get('nome')
-        # Supondo que você tenha outras colunas como "email", "idade", etc.
+        
         habilidade = data.get('habilidade')
         sexo = data.get('sexo')
 
