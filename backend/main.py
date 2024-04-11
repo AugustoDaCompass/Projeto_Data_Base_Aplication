@@ -18,7 +18,7 @@ def adicionar_usuario():
         conn = psycopg2.connect(
             dbname='quilombo',
             user='postgres',
-            password='mariojol',
+            password='senha',
             host='localhost'
         )
         cur = conn.cursor()
