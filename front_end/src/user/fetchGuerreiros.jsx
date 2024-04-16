@@ -3,7 +3,7 @@ import axios from 'axios';
 async function fetchGuerreiros() {
   try {
     
-    const response = await axios.post('http://localhost:5000/batalha'); // Substitua pela URL correta do seu servidor
+    const response = await axios.post('http://localhost:5000/batalha');
     
     
     return response.data;
